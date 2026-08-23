@@ -14,3 +14,5 @@
 **Mitigation:** Never expose raw SQL execution as a tool available to an LLM. Support-facing functions should be narrow, purpose-built (e.g. `reset_own_password(user_id)`) with server-side authorization checks — not generic database access. Apply least privilege / least agency: the model should only be able to do what the specific use case requires, nothing more.
 
 **OWASP mapping:** LLM06 — Excessive Agency
+<img width="1568" height="578" alt="image" src="https://github.com/user-attachments/assets/b151dd46-85fe-4a46-abdb-e0cb9a923841" />
+<img width="1568" height="695" alt="image" src="https://github.com/user-attachments/assets/5bf8609f-074d-4ad0-a5d2-4324cefaf74b" />
